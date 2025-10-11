@@ -1,7 +1,7 @@
 # Energy-Efficient-Scheduler
 > OS Project (Course PBL)
 
-### Team Roles and Responsibilities
+## Team Roles and Responsibilities
 
 ### - Tanmay Chauhan (Team Lead & Simulator Architect)
   - Primary Role: Designs and builds the core simulation engine—the "world" where the CPU and processes exist. He is responsible for the main time loop, process state transitions, and the energy consumption model.
