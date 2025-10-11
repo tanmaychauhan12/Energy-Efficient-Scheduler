@@ -63,3 +63,18 @@ Simulator Class (Tanmay):
   - Create simulator/cpu_simulator.py. This class will manage time, process queues, and the CPU state. It's the heart of the project.
 
 Checkpoint: The core simulator exists. It's a "car" with no driver. Now, let's build the drivers (the algorithms).
+
+## Phase 2: Implementing the Scheduling Algorithms (Target: Weeks 3-4)
+Goal: Each team member implements their assigned OS scheduler. This is the main backend phase.
+  - Standard Interface: All schedulers must be a class with an __init__(self, simulator) method and a schedule(self) method. This makes them plug-and-play.
+
+  1. Round Robin (Tanmay):
+     - Create algorithms/round_robin.py.
+  2. Shortest Remaining Time First (Riya):
+     - Create algorithms/srtf.py. This must be preemptive.
+  4. Preemptive Priority (Palak):
+     - Create algorithms/priority.py.
+  5. Custom Energy-Aware (Muskan):
+     - Create algorithms/energy_aware.py.
+
+Checkpoint: All four scheduling algorithms are implemented in their respective files.
