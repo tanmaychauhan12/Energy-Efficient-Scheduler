@@ -36,3 +36,5 @@ Goal: Establish a professional project structure and a collaborative environment
     - Install Python, Git, and VS Code.
     - Clone the new repository: git clone <repository_url>
     - Create and activate a virtual environment:
+       - python -m venv venv
+         source venv/bin/activate  # Windows: venv\Scripts\activate
