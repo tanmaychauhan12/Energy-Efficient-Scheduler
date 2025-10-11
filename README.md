@@ -42,3 +42,13 @@ Goal: Establish a professional project structure and a collaborative environment
        - streamlit
          pandas
          matplotlib
+  3. Project Structure (Tanmay):
+     - Create the following directory structure and push it to the repo. This keeps our code organized.
+        ###
+           /energy-scheduler
+           ├── simulator/         # The core engine
+           ├── algorithms/        # Each scheduler lives here
+           ├── ui/                # The Streamlit app
+           ├── workloads/         # Test files
+           ├── main.py            # To run simulations from the terminal
+           └── README.md
