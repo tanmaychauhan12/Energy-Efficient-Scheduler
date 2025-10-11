@@ -1,5 +1,5 @@
 # Energy-Efficient-Scheduler
-> OS Project (Course Work)
+> OS Project (Course PBL)
 
 ### Team Roles and Responsibilities
 
