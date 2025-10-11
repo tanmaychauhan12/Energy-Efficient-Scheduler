@@ -19,4 +19,6 @@
   - Primary Role: Develops the project's central innovation—the custom energy-aware scheduler. She is also responsible for creating test workloads and analyzing the final data to prove the project's hypothesis.
 - OS Algorithm: Implements the Custom Energy-Aware (CEA) scheduler, using the composite score to balance performance and power.
 
-
+## Motivation
+Modern devices and data centers must balance performance with energy use. Traditional CPU schedulers (RR, SJF, Priority) ignore energy as a primary objective, causing unnecessary power draw and higher costs. This project builds an energy-aware scheduler that prioritizes processes using a composite score (estimated energy-to-finish, user priority, deadline urgency, and aging). It also uses adaptive time quanta, low-power state modeling, and a simple DVFS core model. A
+Streamlit GUI will let users run experiments, view Gantt/energy timelines, and compare against standard baselines. The result is a reproducible tool to explore energy–performance tradeoffs
