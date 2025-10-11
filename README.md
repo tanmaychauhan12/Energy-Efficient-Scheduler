@@ -52,3 +52,14 @@ Goal: Establish a professional project structure and a collaborative environment
            ├── workloads/         # Test files
            ├── main.py            # To run simulations from the terminal
            └── README.md
+  4. Core Data Class (Tanmay):
+     - Create the file simulator/process.py. This class is the blueprint for every task we will schedule.
+
+  Checkpoint: The core simulator exists. It's a "car" with no driver. Now, let's build the drivers (the algorithms).
+
+## Phase 1: Building the Simulator Engine (Target: Week 2)
+Goal: Create a functioning, time-based simulation loop.
+Simulator Class (Tanmay):
+  - Create simulator/cpu_simulator.py. This class will manage time, process queues, and the CPU state. It's the heart of the project.
+
+Checkpoint: The core simulator exists. It's a "car" with no driver. Now, let's build the drivers (the algorithms).
