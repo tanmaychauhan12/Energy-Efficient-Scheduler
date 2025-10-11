@@ -45,13 +45,21 @@ Goal: Establish a professional project structure and a collaborative environment
   3. Project Structure (Tanmay):
      - Create the following directory structure and push it to the repo. This keeps our code organized.
         ###
-           /energy-scheduler
-           ├── simulator/         # The core engine
-           ├── algorithms/        # Each scheduler lives here
-           ├── ui/                # The Streamlit app
-           ├── workloads/         # Test files
-           ├── main.py            # To run simulations from the terminal
-           └── README.md
+           /CPU-Scheduler-Showcase
+           ├── algorithms/
+           │   ├── round_robin.py
+           │   ├── srtf.py
+           │   ├── priority_preemptive.py
+           │   └── advanced_energy_aware.py
+           ├── simulator/
+           │   ├── process.py
+           │   └── cpu_simulator.py
+           ├── utils/
+           │   └── plotter.py
+           ├── workloads/
+           │   └── workload1.txt
+           ├── app.py
+           └── requirements.txt
   4. Core Data Class (Tanmay):
      - Create the file simulator/process.py. This class is the blueprint for every task we will schedule.
 
