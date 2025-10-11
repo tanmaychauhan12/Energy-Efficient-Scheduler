@@ -1,7 +1,7 @@
 # Energy-Efficient-Scheduler
 OS Project (Course Work)
 
-# Team Roles and Responsibilities
+### Team Roles and Responsibilities
 
 # - Tanmay Chauhan (Team Lead & Simulator Architect)
   - Primary Role: Designs and builds the core simulation engine—the "world" where the CPU and processes exist. He is responsible for the main time loop, process state transitions, and the energy consumption model.
@@ -16,5 +16,5 @@ OS Project (Course Work)
     - OS Algorithm: Implements the Preemptive Priority scheduler. This algorithm introduces the concept of process priority levels and how they trigger context switches.
 
 # - Muskan Bhatt (Energy-Aware Algorithm & Data Analyst)
-    - Primary Role: Develops the project's central innovation—the custom energy-aware scheduler. She is also responsible for creating test workloads and analyzing the final data to prove the project's hypothesis.
+  - Primary Role: Develops the project's central innovation—the custom energy-aware scheduler. She is also responsible for creating test workloads and analyzing the final data to prove the project's hypothesis.
     - OS Algorithm: Implements the Custom Energy-Aware (CEA) scheduler, using the composite score to balance performance and power.
