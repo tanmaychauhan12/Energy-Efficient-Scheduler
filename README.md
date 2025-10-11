@@ -26,7 +26,7 @@ Streamlit GUI will let users run experiments, view Gantt/energy timelines, and c
 The Vision: An interactive web application where a user can upload a list of computing tasks, run them through four different CPU schedulers (three classic, one custom energy-aware), and instantly see a visual comparison of performance vs. energy consumption.
 
 
-### Phase 0: Foundation & Setup (Target: Week 1)
+## Phase 0: Foundation & Setup (Target: Week 1)
 Goal: Establish a professional project structure and a collaborative environment.
  1. Project Management (Tanmay):
     - Create a private repository on GitHub named Energy-Efficient-Scheduler.
