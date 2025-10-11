@@ -15,7 +15,7 @@
   - Primary Role: Handles scheduling based on process priority and leads the integration of the backend simulator with the frontend UI.
 - OS Algorithm: Implements the Preemptive Priority scheduler. This algorithm introduces the concept of process priority levels and how they trigger context switches.
 
-### - Muskan Bhatt (Energy-Aware Algorithm & Data Analyst)
+### - [Muskan Bhatt](https://github.com/muskanbhatt) (Energy-Aware Algorithm & Data Analyst)
   - Primary Role: Develops the project's central innovation—the custom energy-aware scheduler. She is also responsible for creating test workloads and analyzing the final data to prove the project's hypothesis.
 - OS Algorithm: Implements the Custom Energy-Aware (CEA) scheduler, using the composite score to balance performance and power.
 
