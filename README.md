@@ -78,3 +78,20 @@ Goal: Each team member implements their assigned OS scheduler. This is the main 
      - Create algorithms/energy_aware.py.
 
 Checkpoint: All four scheduling algorithms are implemented in their respective files.
+
+## Phase 3: Terminal-Based Integration & Testing (Target: Week 5)
+Goal: Prove that all algorithms work correctly before building the UI.
+
+  1. Main Script (Tanmay):
+     - Expand main.py to load a workload, create four separate simulator instances (one for each algorithm), run them all, and print the comparative results to the terminal. This verifies the backend logic completely.
+
+  2. Metric Calculations (Riya):
+     - Write helper functions that take the finished_processes list and calculate average turnaround time and average wait time. Add these to the main.py printout.
+
+  3. Comprehensive Workloads (Muskan):
+     - Create workloads/cpu_heavy.txt (many long jobs) and workloads/mixed.txt (a realistic mix). Test all algorithms with all workloads.
+
+  4. Debugging (Everyone):
+     - This is a team effort. Run main.py and fix any bugs. Does SRTF preempt correctly? Does Round Robin cycle through processes? Does the energy count seem reasonable?
+
+Checkpoint: Running python main.py produces a clean, correct, comparative report of all four schedulers for any given workload file.
