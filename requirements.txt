@@ -1,11 +1,3 @@
 streamlit
 pandas
 matplotlib
-energy-scheduler
-├── simulator
-│   └── process.py
-├── algorithms
-├── ui
-├── workloads
-├── main.py
-└── README.md
